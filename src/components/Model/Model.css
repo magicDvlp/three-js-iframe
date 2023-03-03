@@ -1,0 +1,21 @@
+.canvas {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+.canvas-wrapper {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  touch-action: none;
+}
+.iframe iframe {
+  width: 378px;
+  height: 812px;
+  border-radius: 46px;
+  overflow: hidden!important;
+  touch-action: none;
+}
+.iframe iframe html {
+  overflow: hidden!important;
+}
